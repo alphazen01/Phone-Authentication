@@ -1,8 +1,8 @@
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:otp/screens/home.dart';
-import 'package:otp/screens/login2.dart';
-import 'package:otp/screens/login3.dart';
+import 'package:otp/screens/log_in_google.dart';
+import 'package:otp/screens/login3_phone.dart';
 
 
 void main()async {
@@ -32,7 +32,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
       ),
       debugShowCheckedModeBanner: false,
-      home:Login3()
+      home:LoginWithGoogle()
     );
   }
 }
